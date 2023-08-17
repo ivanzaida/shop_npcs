@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "./dist",
+    "declaration": false,
+    "noEmit": true,
+    "types": ["@altv/types-shared", "@altv/types-server"],
+    "paths": {}
+  },
+  "include": ["./src"]
+}

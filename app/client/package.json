@@ -1,0 +1,15 @@
+{
+  "name": "@altvresource/client",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "yarn build --watch"
+  },
+  "dependencies": {
+    "@altvresource/shared": "0.0.1"
+  },
+  "devDependencies": {
+    "@altv/types-client": "^2.8.8",
+    "@altv/types-shared": "^1.5.9"
+  }
+}
