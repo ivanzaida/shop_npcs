@@ -5,7 +5,7 @@
     "outDir": "./dist",
     "declaration": false,
     "noEmit": true,
-    "types": ["@altv/types-shared", "@altv/types-server"],
+    "types": ["@altv/types-shared", "@altv/types-server", "@types/node"],
     "paths": {}
   },
   "include": ["./src"]

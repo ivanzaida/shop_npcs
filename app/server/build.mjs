@@ -1,4 +1,5 @@
 import * as esbuild from "esbuild";
+import process from "process";
 
 const context = await esbuild.context({
   entryPoints: ["src/main.ts"],
@@ -8,7 +9,7 @@ const context = await esbuild.context({
   target: "ESNext",
   logLevel: "info",
   mainFields: ["main"],
-  external: ["alt-shared", "alt-server"],
+  external: ["alt-shared", "alt-server", "fs", "path"],
 });
 
 const shouldWatch = process.argv.includes("--watch");

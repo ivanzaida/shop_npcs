@@ -6,6 +6,7 @@
     "dev": "yarn build --watch"
   },
   "dependencies": {
+    "@altv/types-natives": "^1.5.4",
     "@altvresource/shared": "0.0.1"
   },
   "devDependencies": {

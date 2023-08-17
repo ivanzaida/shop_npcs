@@ -21,7 +21,10 @@
     "no-shadow": "off",
     "no-use-before-define": "error",
     "import/no-duplicates": "error",
-    "import/no-unresolved": ["error", {"ignore": ["alt-client", "alt-server", "alt-shared"]}],
+    "import/no-unresolved": [
+      "error",
+      { "ignore": ["alt-client", "alt-server", "alt-shared", "natives"] }
+    ],
     "@typescript-eslint/no-shadow": ["error"],
     "@typescript-eslint/no-use-before-define": ["error"],
     "@typescript-eslint/naming-convention": [
